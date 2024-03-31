@@ -21,6 +21,7 @@
   },
   "scripts": {
     "build": "tsc && vite build",
+    "prepare": "npm run build",
     "format": "prettier --write --parser typescript '**/*.{ts,tsx}'",
     "lint": "eslint . --ext .ts,.tsx --ignore-path .gitignore --fix",
     "test": "vitest run",
