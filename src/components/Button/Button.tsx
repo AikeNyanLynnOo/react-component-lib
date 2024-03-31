@@ -7,7 +7,7 @@ const StyledButton = styled.button<ButtonProps>`
   line-height: 1;
   font-size: 15px;
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 600;
   font-weight: bold;
   border-radius: 10px;
   display: inline-block;
