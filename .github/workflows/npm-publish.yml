@@ -19,9 +19,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci && npm run build
 
       - name: Publish to npm
-        run: npm publish --tag latest --access public --registry=https://registry.npmjs.org/
+        run: npm publish --tag latest --access public
         env:
           NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
