@@ -33,7 +33,7 @@ export interface ButtonProps {
   text?: Text;
 
   /** Children can be string | Any React Node Element, if text props is provided Children will be ignored */
-  children: Children;
+  children?: Children;
 
   /** If true, cursor is not-allowed and disabled */
   disabled?: boolean;
